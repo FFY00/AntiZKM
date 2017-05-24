@@ -5,11 +5,6 @@
     <artifactId>AntiZKM</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
     
     <build>
       <sourceDirectory>src</sourceDirectory>
@@ -24,8 +19,8 @@
                   <arg>-Xlint:all,-options,-path</arg>
                </compilerArgs>
                <fork>true</fork>
-               <source>1.7</source>
-               <target>1.7</target>
+               <source>1.8</source>
+               <target>1.8</target>
             </configuration>
          </plugin>
          <plugin>
